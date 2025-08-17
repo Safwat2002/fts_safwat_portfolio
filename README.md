@@ -19,3 +19,5 @@
 * Projects
 * Contact Me
 * Footer
+
+[Portfolio Design Link](https://www.figma.com/design/mEXHDJIfhCJwkpVFvsDs8u/FTS_Portfolio?node-id=0-1&t=Ny1tBTxKTQPVRGfB-1)
