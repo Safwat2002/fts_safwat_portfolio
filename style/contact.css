@@ -1,0 +1,41 @@
+.contact-me {
+    width: 50%;
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+        .field {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+
+            input, textarea{
+                padding:0.8rem;
+                outline: none;
+                border: none;
+                border-radius: var(--border-radius);
+                box-shadow: 0px 0px 2px 0px #555252;
+
+                &:focus{
+                    box-shadow: 0px 0px 5px 0px #555252;
+                }
+            }
+        }
+
+        button{
+            align-self: flex-end;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .contact-me{
+        width:70%;
+    }
+}
+
+@media (max-width: 768px){
+    .contact-me{
+        width:90%;
+    }
+}
