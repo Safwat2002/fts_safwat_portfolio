@@ -41,3 +41,14 @@ footer {
         font-size: 1.3rem;
     }
 }
+
+@media (max-width:768px){
+    footer{
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+
+    .right, .left{
+        row-gap: 1rem;
+    }
+}

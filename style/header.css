@@ -11,17 +11,9 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: var();
+        padding:1.2rem 1rem;
         width: var(--section-width);
         margin: auto;
-        height: var(--navbar-height);
-
-        .nav-icon {
-            display: none;
-            color: var(--main-font-color);
-            font-size: 2rem;
-            cursor: pointer;
-        }
 
         .logo {
             font-family: 'Jolly Lodger';
@@ -136,28 +128,14 @@ header {
             font-size: 1.5rem;
         }
 
-        .nav-icon.open {
-            display: flex;
-        }
-
+        
         .navbar {
-            padding: 2rem 1rem;
+            padding: 1rem 0.8rem;
+            flex-direction: column;
+            row-gap: 1rem;
 
-            nav {
-                display: none;
-                position: absolute;
-                top: var(--navbar-height);
-                right: 0;
-                flex-direction: column;
-                background-color: var(--main-bg-color);
-                width: 50%;
-                height: calc(100vh - var(--navbar-height));
-                border-left: 1px solid #fff;
-
-                a {
-                    border-radius: 0;
-                    padding: 1rem
-                }
+            .nav{
+                column-gap: 0.3rem;
             }
         }
     }

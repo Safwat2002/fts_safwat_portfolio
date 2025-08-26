@@ -11,7 +11,7 @@
 * Sweet Alert library
 * EmailJS library as email service for contact form
 
-## Single Page App Section
+## Single Page App Sections
 * Navbar
 * Header
 * Technologies
@@ -21,3 +21,5 @@
 * Footer
 
 [Portfolio Design Link](https://www.figma.com/design/mEXHDJIfhCJwkpVFvsDs8u/FTS_Portfolio?node-id=0-1&t=Ny1tBTxKTQPVRGfB-1)
+
+[Website Link](https://safwat2002.github.io/fts_safwat_portfolio/)
